@@ -14,5 +14,3 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${props => props.theme.pallete.background};
   }
 `;
-
-

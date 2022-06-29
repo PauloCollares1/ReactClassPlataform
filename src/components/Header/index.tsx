@@ -1,4 +1,4 @@
-import { HeaderStyle } from './styles'
+import { HeaderStyle, NavlinkStyle } from './styles'
 import { NavLink } from 'react-router-dom'
 
 
@@ -6,10 +6,10 @@ import { NavLink } from 'react-router-dom'
 export const Header = () => {
   return (
     <HeaderStyle>
-      <h1 className='header-logo'>logo</h1>
+      <h1>logo</h1>
       <div>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
+        <NavlinkStyle to="/">Home</NavlinkStyle>
+        <NavlinkStyle to="/about">About</NavlinkStyle>
       </div>
     </HeaderStyle>
   )

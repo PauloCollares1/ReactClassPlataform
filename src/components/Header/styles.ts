@@ -24,8 +24,10 @@ export const HeaderStyle = styled.header`
 
 export const NavlinkStyle = styled(NavLink)`
     color: white;
-    margin-left: 2vw;
+    margin-left: 2em;
     font-size: smaller;
     text-decoration: none;
 `;
+
+
 

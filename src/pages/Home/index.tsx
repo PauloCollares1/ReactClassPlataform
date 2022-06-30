@@ -1,8 +1,13 @@
 import React from 'react'
+import { GridContent, Content, SideMenu } from './styles'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <GridContent>
+      <Content>Meu texto inicial</Content>
+      <SideMenu></SideMenu>
+
+    </GridContent>
   )
 }
 

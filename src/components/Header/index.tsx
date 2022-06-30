@@ -8,7 +8,7 @@ export const Header = () => {
     <HeaderStyle>
       <h1>logo</h1>
       <div>
-        <NavlinkStyle to="/">Home</NavlinkStyle>
+        <NavlinkStyle to="/"> Home</NavlinkStyle>
         <NavlinkStyle to="/about">About</NavlinkStyle>
       </div>
     </HeaderStyle>
